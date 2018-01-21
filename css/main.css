@@ -6190,6 +6190,12 @@ input, textarea {
     width: 40px;
     height: 4px;
   }
+  .banner .header .is-active {
+    position: absolute;
+    right: 15px;
+    background: #323539;
+    opacity: 100;
+  }
   .banner .header .hamburger-mobile {
     margin-right: 100px;
   }
@@ -6248,12 +6254,6 @@ input, textarea {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  .banner .header .is-active {
-    position: absolute;
-    right: 15px;
-    background: #323539;
-    opacity: 100;
-  }
   /**/
 }
 
