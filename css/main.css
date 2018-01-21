@@ -5557,7 +5557,7 @@ input, textarea {
 .banner {
   position: relative;
   height: 100vh;
-  min-height: 720px;
+  min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5597,7 +5597,7 @@ input, textarea {
   border-bottom: 1px solid rgba(255, 255, 255, 0.11);
 }
 
-.banner .header .logo, .banner .header .phone, .banner .header .menu, .banner .header strong {
+.banner .header strong, .banner .header .phone, .banner .header .menu {
   display: inline-block;
 }
 
@@ -5623,7 +5623,7 @@ input, textarea {
 
 .banner .header .menu li a {
   display: block;
-  margin-right: 14px;
+  margin-left: 14px;
   padding: 4px 8px;
 }
 
@@ -5633,13 +5633,13 @@ input, textarea {
   transition: all .2s ease;
 }
 
-.banner .header .menu li:last-child a {
-  margin-right: -8px;
-}
-
-.banner .header .active a {
+.banner .header .menu li.active a {
   color: #232529;
   background-color: #ffc20c;
+}
+
+.banner .header .menu li:last-child a {
+  margin-right: -6px;
 }
 
 .banner .header .hamburger {
@@ -5650,14 +5650,11 @@ input, textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 80px;
   height: 100vh;
-  min-height: 660px;
-  padding-bottom: 120px;
 }
 
 .banner .content .wrap_logo {
-  content: '';
-  display: block;
   width: 326px;
   height: 326px;
   border: 9.78px solid;
@@ -5667,7 +5664,7 @@ input, textarea {
   border-color: rgba(255, 255, 255, 0.11);
 }
 
-.banner .content .wrap_logo:before {
+.banner .content .wrap_logo::before {
   content: '';
   display: block;
   width: 9.78px;
@@ -5684,23 +5681,18 @@ input, textarea {
 }
 
 .banner .content .text {
-  max-width: 700px;
   font-size: 17px;
   margin-top: 14px;
-  margin-bottom: 56px;
+  margin-bottom: 46px;
 }
 
 .banner .content .button {
   display: inline-block;
+  margin-right: 24px;
   padding: 0 50px;
   font: 11px OpensansBold;
-  text-align: center;
   line-height: 50px;
   border: 3px solid #fff;
-}
-
-.banner .content .button:first-child {
-  margin-right: 24px;
 }
 
 .banner .content .button:hover {
@@ -5713,7 +5705,7 @@ input, textarea {
 .banner .arrow {
   position: absolute;
   left: 50%;
-  bottom: 30px;
+  bottom: 50px;
   margin-left: -16px;
 }
 
@@ -5739,8 +5731,6 @@ input, textarea {
 }
 
 .main .header .wrap_logo {
-  content: '';
-  display: block;
   width: 133px;
   height: 133px;
   border: 3.99px solid;
@@ -5750,7 +5740,7 @@ input, textarea {
   border-color: rgba(0, 0, 0, 0.13);
 }
 
-.main .header .wrap_logo:before {
+.main .header .wrap_logo::before {
   content: '';
   display: block;
   width: 3.99px;
@@ -5818,7 +5808,6 @@ input, textarea {
 
 .main .about .img {
   width: 100%;
-  max-height: 278px;
   border: 5px solid #ffc20c;
 }
 
@@ -6099,7 +6088,7 @@ input, textarea {
 }
 
 .footer .content .text {
-  margin-top: 36px;
+  margin: 36px 0;
   max-width: 360px;
   font: 15px Opensans;
   color: #bababa;
@@ -6130,10 +6119,6 @@ input, textarea {
 }
 
 @media only screen and (max-width: 1200px) {
-  .banner .content .text {
-    margin-top: 8px;
-    margin-bottom: 32px;
-  }
   .footer .col-xs-8, .footer .col-xs-4 {
     width: 50%;
   }
@@ -6148,24 +6133,25 @@ input, textarea {
   .main .about .col-md-5 {
     text-align: center;
   }
-  .main .about .col-md-5 .img {
-    margin: 40px 0 0;
-    max-width: 100%;
-    width: auto;
-    max-height: 300px;
+  .main .about .img {
+    margin-top: 40px;
+    height: 300px;
   }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .banner {
+    min-height: 600px;
+  }
   .banner .header .menu {
     display: none;
   }
   .banner .header .menu_mobile {
-    display: block !important;
     position: absolute;
     top: 19px;
-    right: 15px;
+    right: 16px;
+    display: block !important;
     background: #323539;
     padding: 20px;
     transition: all .2s ease;
@@ -6190,16 +6176,13 @@ input, textarea {
     width: 40px;
     height: 4px;
   }
-  .banner .header .is-active {
-    position: absolute;
-    right: 15px;
-    background: #323539;
-    opacity: 100;
-  }
   .banner .header .hamburger-mobile {
-    margin-right: 100px;
+    position: absolute;
+    top: 19px;
+    right: 104px;
   }
   .banner .content .buttons .button:last-child {
+    margin-right: 0px;
     margin-top: 20px;
   }
   /**/
@@ -6219,7 +6202,6 @@ input, textarea {
   }
   .footer .content .text {
     max-width: 600px;
-    margin-bottom: 20px;
   }
   .footer .content .map {
     height: 300px;
@@ -6228,9 +6210,6 @@ input, textarea {
 }
 
 @media only screen and (max-width: 559px) {
-  .banner .header .phone {
-    display: none;
-  }
   .contacts .col-xs-6 {
     width: 100%;
   }
@@ -6239,15 +6218,18 @@ input, textarea {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .banner {
+    min-height: 800px;
+  }
+  .banner .header .phone {
+    display: none;
+  }
   /**/
 }
 
 @media only screen and (max-width: 430px) {
   .services .col-xs-6 {
     width: 100%;
-  }
-  .services .col-xs-6:first-child {
-    margin-bottom: 30px;
   }
   /**/
 }

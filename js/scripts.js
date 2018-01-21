@@ -10,30 +10,22 @@ $(function() {
 
 
 
-  $('.banner .arrow').click(function() {
-    $('html, body').animate({ scrollTop: $('.banner').height() }, 'slow');
-    return false;
-  });
-  $('.m_services').click(function() {
-    $('html, body').animate({ scrollTop: $('.main .services').offset().top}, 'slow');
-    return false;
-  });
-  $('.m_about').click(function() {
-    $('html, body').animate({ scrollTop: $('.main .about').offset().top}, 'slow');
-    return false;
-  });
-  $('.m_news').click(function() {
-    $('html, body').animate({ scrollTop: $('.main .news').offset().top}, 'slow');
-    return false;
-  });
-  $('.m_contacts').click(function() {
-    $('html, body').animate({ scrollTop: $('.main .contacts').offset().top}, 'slow');
-    return false;
-  });
+  menu_choice = function(link, el) {
+    $(link).click(function() {
+      $('html, body').animate({ scrollTop: $(el).offset().top }, 'slow');
+      return false;
+    });
+  }
+  menu_choice('.arrow', '.about');
+  menu_choice('.m_services', '.services');
+  menu_choice('.m_about', '.about');
+  menu_choice('.m_news', '.news');
+  menu_choice('.m_contacts', '.contacts');
+
 
 
   about_img_height = $('.about .col-md-7').height();
-  $('.about_img').css('height',about_img_height);
+  $('.about .img').css('height',about_img_height);
 
 
 
