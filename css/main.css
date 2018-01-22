@@ -6189,6 +6189,9 @@ input, textarea {
 }
 
 @media only screen and (max-width: 767px) {
+  .services .row .col-xs-6:first-child {
+    margin-top: 30px;
+  }
   .services .row .col-xs-6:last-child {
     margin-top: 30px;
     width: 100%;
