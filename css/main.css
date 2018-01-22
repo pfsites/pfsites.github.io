@@ -5882,11 +5882,13 @@ input, textarea {
 }
 
 .main .news .content .owl-carousel .item .text {
-  display: block;
-  height: 42px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
   font: 15px Opensans;
   color: #666;
-  overflow: hidden;
 }
 
 .main .all_news {
@@ -6189,7 +6191,7 @@ input, textarea {
 }
 
 @media only screen and (max-width: 767px) {
-  .services .row .col-xs-6:first-child {
+  .services .row .col-xs-6:nth-child(2) {
     margin-top: 30px;
   }
   .services .row .col-xs-6:last-child {

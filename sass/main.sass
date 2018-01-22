@@ -229,12 +229,13 @@ input, textarea
 				color: #999
 				font-family: OpensansItalic
 			.text
-				display: block
-				height: 42px
+				display: -webkit-box
+				-webkit-box-orient: vertical
+				text-overflow: ellipsis
+				-webkit-line-clamp: 2
+				overflow: hidden
 				font: 15px Opensans
 				color: #666
-				overflow: hidden
-
 
 
 	.all_news

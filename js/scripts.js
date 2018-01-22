@@ -24,8 +24,10 @@ $(function() {
 
 
 
-  about_img_height = $('.about .col-md-7').height();
-  $('.about .img').css('height',about_img_height);
+  if ($(document).width() >= 1024){
+    about_img_height = $('.about .col-md-7').height();
+    $('.about .img').css('height',about_img_height);
+  }
 
 
 
