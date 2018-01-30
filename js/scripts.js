@@ -70,4 +70,6 @@ $(function() {
   });
   
 
+  $('.preloader').fadeOut();
+
 });
