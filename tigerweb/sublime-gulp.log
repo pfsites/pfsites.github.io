@@ -1,0 +1,100 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+02-18-2018 19:43:
+C:\Users\a\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding D:\___WEB___\tigerweb\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 6.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass --force` to build the binding for your current environment.
+    at module.exports (D:\___WEB___\tigerweb\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\gulp-sass\index.js:187:21)
+
+
+02-18-2018 19:45:
+C:\Users\a\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding D:\___WEB___\tigerweb\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 6.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass --force` to build the binding for your current environment.
+    at module.exports (D:\___WEB___\tigerweb\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\gulp-sass\index.js:187:21)
+
+
+02-18-2018 19:46:
+C:\Users\a\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding D:\___WEB___\tigerweb\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 6.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass --force` to build the binding for your current environment.
+    at module.exports (D:\___WEB___\tigerweb\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\gulp-sass\index.js:187:21)
+
+
+02-18-2018 19:48:
+C:\Users\a\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Missing binding D:\___WEB___\tigerweb\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 6.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass --force` to build the binding for your current environment.
+    at module.exports (D:\___WEB___\tigerweb\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\___WEB___\tigerweb\node_modules\gulp-sass\index.js:187:21)

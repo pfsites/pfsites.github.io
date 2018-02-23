@@ -1,0 +1,1 @@
+{"D:\\___WEB___\\tigerweb\\gulpfile.js": {"sha1": "8d68df0dfed296fc54bedf56048f42c4ac9d978d", "tasks": {"watch": {"dependencies": "", "name": "watch"}, "default": {"dependencies": "", "name": "default"}, "sass": {"dependencies": "", "name": "sass"}}}}
