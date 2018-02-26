@@ -52,6 +52,7 @@ ul
 				vertical-align: top
 				width: 200px
 				height: 56px
+				background: url('../img/header-button-hover.png')
 				background: url('../img/header-button.png')
 				border: none
 				outline: none
@@ -286,6 +287,7 @@ ul
 					padding-top: 26px
 					padding-right: 0
 					margin-right: 0
+					background-image: url('../img/callback-hover.png')
 					background-image: url('../img/callback.png')
 					background-position: center 84px
 					&:hover
@@ -308,11 +310,16 @@ ul
 				margin-bottom: 12px
 				color: #333333
 			.h3
+				display: block
 				text-transform: uppercase
 				font-size: 16px
 				border-bottom: 2px solid #39b032
-				padding-bottom: 8px
+				padding-bottom: 4px
 				color: #333333
+				overflow: hidden
+				display: -webkit-box
+				-webkit-line-clamp: 2
+				-webkit-box-orient: vertical
 			.text
 				font-size: 14px
 				color: #666666
@@ -333,7 +340,8 @@ ul
 				font-size: 14px
 				margin-left: 132px
 				color: #39b032
-		.reviews			
+		.reviews
+			padding-bottom: 50px
 			.h1
 				font-size: 30px
 				margin-bottom: 12px
