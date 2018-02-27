@@ -1,0 +1,1 @@
+{"D:\\___WEB___\\pfsites\\pfsites.local\\absolut\\gulpfile.js": {"sha1": "8d68df0dfed296fc54bedf56048f42c4ac9d978d", "tasks": {"watch": {"name": "watch", "dependencies": ""}, "default": {"name": "default", "dependencies": ""}, "sass": {"name": "sass", "dependencies": ""}}}}
