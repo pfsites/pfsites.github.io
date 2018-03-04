@@ -106,7 +106,7 @@ ul
 			position: absolute
 			width: 278px
 			height: 35px
-			background: url('../img/header-shadow.png')
+			background: url('../img/left-shadow.png')
 	.row
 		margin-left: -30px
 		margin-right: -30px
@@ -304,6 +304,17 @@ ul
 	.news-reviews
 		margin-top: 40px
 		font-family: RobotoCondensed-Regular
+		padding-bottom: 32px
+		border-bottom: 1px solid #f0f0f0
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 278px
+			height: 35px
+			background: url('../img/left-shadow.png')
+			bottom: -35px
 		.news
 			.h1
 				font-size: 30px
@@ -341,7 +352,6 @@ ul
 				margin-left: 132px
 				color: #39b032
 		.reviews
-			padding-bottom: 50px
 			.h1
 				font-size: 30px
 				margin-bottom: 12px
@@ -382,6 +392,29 @@ ul
 					margin-top: -16px
 					margin-left: 48px
 					font-size: 18px
+
+
+
+
+.footer
+	text-align: center
+	margin-top: 18px
+	.footer-menu
+		li
+			display: inline-block
+			a
+				font: 14px Roboto-Regular
+				text-transform: uppercase
+				padding: 0px 12px
+				color: #666666
+				border-right: 1px solid #eeeeee
+				&:hover
+					text-decoration: none
+					color: #39b032
+			&:last-child 
+				a
+					border-right: none
+
 
 
 
