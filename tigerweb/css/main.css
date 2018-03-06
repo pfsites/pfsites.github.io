@@ -6509,8 +6509,12 @@ ul {
 }
 
 .footer {
-  text-align: center;
+  position: relative;
   margin-top: 18px;
+}
+
+.footer .footer-menu {
+  text-align: center;
 }
 
 .footer .footer-menu li {
@@ -6532,6 +6536,67 @@ ul {
 
 .footer .footer-menu li:last-child a {
   border-right: none;
+}
+
+.footer .footer-wrapper {
+  position: relative;
+}
+
+.footer .footer-wrapper .contacts {
+  margin-top: 14px;
+  text-align: left;
+  position: relative;
+}
+
+.footer .footer-wrapper .contacts p {
+  font: 12px Roboto-Regular;
+  color: #959595;
+  line-height: 1.4em;
+}
+
+.footer .footer-wrapper .contacts p .bold {
+  font-weight: bold;
+}
+
+.footer .footer-wrapper .dev {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 212px;
+  height: 40px;
+  padding-right: 130px;
+  background-image: url("../img/footer-tiger-hover.png");
+  background: url("../img/footer-tiger.png") right 0 no-repeat;
+}
+
+.footer .footer-wrapper .dev:hover {
+  background-image: url("../img/footer-tiger-hover.png");
+  cursor: pointer;
+  transition: .3s;
+}
+
+.footer .footer-wrapper .dev p {
+  text-align: right;
+  font: 10px Roboto-Regular;
+  color: #959595;
+}
+
+.footer .footer-wrapper .up {
+  width: 108px;
+  height: 43px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -54px;
+  background-image: url("../img/up-hover.png");
+  background: url("../img/up.png") no-repeat;
+}
+
+.footer .footer-wrapper .up:hover {
+  background-image: url("../img/up-hover.png");
+  cursor: pointer;
+  transition: .3s;
 }
 
 /*==========  Desktop First  ==========*/
@@ -6564,6 +6629,9 @@ ul {
   .main .news-reviews .reviews .author .fa {
     margin-top: -48px;
     margin-left: 126px;
+  }
+  .footer {
+    margin-top: 24px;
   }
   /**/
 }
@@ -6618,6 +6686,11 @@ ul {
     margin-top: -18px;
     margin-left: 16px;
   }
+  .footer .footer-wrapper .up {
+    background-size: contain;
+    background-position: center;
+    height: 36px;
+  }
 }
 
 @media only screen and (max-width: 779px) {
@@ -6646,6 +6719,9 @@ ul {
   }
   .main .news-reviews .news .text {
     min-height: auto;
+  }
+  .footer .footer-wrapper .up {
+    height: 24px;
   }
   /**/
 }
@@ -6730,6 +6806,20 @@ ul {
   }
   .header-main .flex > .text {
     text-shadow: 0px 0px 1px #fff, 0px 0px 1px #fff, 0px 0px 1px #fff, 0px 0px 1px #fff;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .footer .footer-wrapper .contacts {
+    text-align: center;
+  }
+  .footer .footer-wrapper .dev {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .footer .footer-wrapper .up {
+    position: relative;
   }
 }
 

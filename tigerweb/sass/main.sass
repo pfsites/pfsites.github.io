@@ -397,9 +397,10 @@ ul
 
 
 .footer
-	text-align: center
+	position: relative
 	margin-top: 18px
 	.footer-menu
+		text-align: center
 		li
 			display: inline-block
 			a
@@ -413,7 +414,51 @@ ul
 					color: #39b032
 			&:last-child 
 				a
-					border-right: none
+					border-right: none					
+	.footer-wrapper
+		position: relative
+		.contacts
+			margin-top: 14px
+			text-align: left
+			position: relative
+			p
+				font: 12px Roboto-Regular
+				color: #959595
+				line-height: 1.4em
+				.bold
+					font-weight: bold
+		.dev
+			display: block
+			position: absolute
+			top: 0px
+			right: 0px
+			width: 212px
+			height: 40px
+			padding-right: 130px
+			background-image: url('../img/footer-tiger-hover.png')
+			background: url('../img/footer-tiger.png') right 0 no-repeat
+			&:hover
+				background-image: url('../img/footer-tiger-hover.png')
+				cursor: pointer
+				transition: .3s
+			p
+				text-align: right
+				font: 10px Roboto-Regular
+				color: #959595
+		.up
+			width: 108px
+			height: 43px
+			position: absolute
+			bottom: 0px
+			left: 50%
+			margin-left: -54px
+			background-image: url('../img/up-hover.png')
+			background: url('../img/up.png') no-repeat
+			&:hover
+				background-image: url('../img/up-hover.png')
+				cursor: pointer
+				transition: .3s
+
 
 
 
